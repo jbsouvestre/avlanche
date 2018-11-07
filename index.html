@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Avlanche.fr</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            font-family: 'Roboto', sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: skyblue;
+        }
+
+        body::after {
+            content: "";
+            background-color: steelblue;
+            width: 200%;
+            height: 100%;
+            position: absolute;
+            bottom: -50%;
+            transform: rotate(-15deg);
+        }
+
+        body::before {
+            content: "";
+            background-color: lightblue;
+            width: 200%;
+            height: 100%;
+            position: absolute;
+            bottom: -60%;
+            transform: rotate(10deg);
+            z-index: 500;
+        }
+
+        h1 {
+            color: #fff;
+            z-index: 999;
+            text-shadow: 1px 1px 1px #111;
+        }
+    </style>
+</head>
+<body>
+    <h1>Coming soon</h1>
+</body>
+</html>
