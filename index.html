@@ -9,52 +9,36 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <style>
         html, body {
-            height: 100%;
-            width: 100%;
-            font-family: 'Roboto', sans-serif;
-            overflow: hidden;
-            margin: 0;
             padding: 0;
+            margin: 0;
+            height: 100%;
         }
+
         body {
+            background-color: #fffd00;
+            font-family: "Roboto", "serif";
+        }
+
+        main {
             display: flex;
-            justify-content: center;
             align-items: center;
-            position: relative;
-            background-color: skyblue;
-            
-        }
-
-        body::after {
-            content: "";
-            background-color: steelblue;
-            width: 200%;
+            justify-content: center;
+            flex-direction: column;
             height: 100%;
-            position: absolute;
-            bottom: -50%;
-            transform: rotate(-15deg);
         }
 
-        body::before {
-            content: "";
-            background-color: lightblue;
-            width: 200%;
-            height: 100%;
-            position: absolute;
-            bottom: -60%;
-            transform: rotate(10deg);
-            z-index: 500;
-        }
-
-        h1 {
-            color: #fff;
-            z-index: 999;
-            text-shadow: 1px 1px 1px #111;
+        img {
+            width: 100%;
+            margin: 0 auto;
+            display: block;
         }
     </style>
 </head>
 <body>
-    <h1>Coming soon</h1>
+    <main>
+        <img src="assets/TYPO_DEF3.png" alt="avlance logo">
+        <h1>Ouverture le 16 Mars 2019</h1>
+    </main>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128865273-1"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
