@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<ul>
+    {%- for video in site.videos -%}
+    <li>
+        {{ video.title }}
+
+        <a href="{{video.url}}">link</a>
+    </li>
+    {%- endfor -%}
+</ul>

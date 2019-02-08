@@ -1,0 +1,11 @@
+---
+layout: default
+title: Videos
+permalink: /videos/
+---
+
+{% for video in site.videos %}
+    <h2><a href="{{ video.url }}">{{ video.title }}</a></h2>
+
+    <p>{{video.youtube_link}}</p>
+{% endfor %}
