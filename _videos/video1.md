@@ -1,5 +1,6 @@
 ---
 title: Video 1
-permalink: /my-cool-video/
-youtube_link: https://www.youtube.com/watch?v=l_MyUGq7pgs&list
+youtube_id: l_MyUGq7pgs
+description: The cool video 1
+image: https://i1.ytimg.com/vi/l_MyUGq7pgs/mqdefault.jpg
 ---

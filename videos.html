@@ -4,8 +4,14 @@ title: Videos
 permalink: /videos/
 ---
 
-{% for video in site.videos %}
-    <h2><a href="{{ video.url }}">{{ video.title }}</a></h2>
-
-    <p>{{video.youtube_link}}</p>
-{% endfor %}
+<div class="row">
+    {% for video in site.videos %}
+    
+    <div class="col-md-4">
+        <a href="{{ video.url }}">
+            <h3>{{ video.title }}</h3>
+            {% include youtube_cover.html id=video.youtube_id %}
+        </a>
+    </div>
+    {% endfor %}
+</div>
