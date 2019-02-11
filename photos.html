@@ -1,0 +1,15 @@
+---
+layout: default
+title: Photos
+permalink: /photos/
+---
+
+<div class="container">
+    <div class="row">
+        {% for photo in site.photos %}
+        <div class="col-md-4 video-card">
+            <img src="{{ photo.url }}" alt="">
+        </div>
+        {% endfor %}
+    </div>
+</div>

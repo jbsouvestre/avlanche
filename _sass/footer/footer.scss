@@ -1,0 +1,10 @@
+$footer-height: 40px;
+$footer-bg: #ccc;
+
+#footer {
+  clear: both;
+  position: relative;
+  height: $footer-height;
+  margin-top: -$footer-height;
+  color: #ccc;
+}

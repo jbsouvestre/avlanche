@@ -2,5 +2,63 @@
 layout: post
 author: JB
 ---
+This is a demo of all styled elements in Jekyll Now. 
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+[View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
+
+This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
+
+## Header 2 (H1 is reserved for post titles)##
+
+### Header 3
+
+#### Header 4
+
+##### Header 5
+ 
+A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
+  
+An image, located within /images
+
+![an image alt text](/assets/images/logo.png "an image title")
+
+* A bulletted list
+- alternative syntax 1
++ alternative syntax 2
+  - an indented list item
+
+1. An
+2. ordered
+3. list
+
+Inline markup styles: 
+
+- _italics_
+- **bold**
+- `code()` 
+ 
+> Blockquote
+>> Nested Blockquote 
+ 
+Syntax highlighting can be used by wrapping your code in a liquid tag like so:
+
+{{ "{% highlight javascript " }}%}  
+/* Some pointless Javascript */
+var rawr = ["r", "a", "w", "r"];
+{{ "{% endhighlight " }}%}  
+
+creates...
+
+{% highlight javascript %}
+/* Some pointless Javascript */
+var rawr = ["r", "a", "w", "r"];
+{% endhighlight %}
+ 
+Use two trailing spaces  
+on the right  
+to create linebreak tags  
+ 
+Finally, horizontal lines
+ 
+----
+****

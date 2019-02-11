@@ -1,0 +1,8 @@
+$logo-size: 25px;
+
+.navbar-brand {
+  img {
+    height: $logo-size;
+    width: $logo-size;
+  }
+}

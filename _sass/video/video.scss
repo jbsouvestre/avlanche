@@ -1,0 +1,15 @@
+.video {
+  .backdrop {
+    background-color: $backdrop-color;
+    padding: $backdrop-padding;
+
+    .embed-container {
+      text-align: center;
+    }
+  }
+
+  .description {
+    color: $text-muted;
+    font-size: $text-small;
+  }
+}

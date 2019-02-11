@@ -1,3 +1,5 @@
+@import "variables";
+
 .navbar {
   position: fixed;
   top: 0px;
@@ -5,4 +7,15 @@
 
 body {
   padding-top: 55px;
+  min-height: 100%;
 }
+
+main {
+  min-height: 100%;
+}
+
+@import "video/video";
+@import "video/videos";
+@import "footer/footer";
+@import "includes/share";
+@import "includes/navigation";
