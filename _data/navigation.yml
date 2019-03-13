@@ -1,10 +1,10 @@
-- name: Home
-  link: /
-- name: Videos
-  link: /videos/
-- name: Photos
-  link: /photos/
-- name: Blog
-  link: /blog/
-- name: About
-  link: /about/
+- name: Musique
+  link: /musique/
+- name: Cinema
+  link: /cinema/
+- name: Photographie
+  link: /photography/
+- name: Mode
+  link: /mode/
+- name: Art Graphique
+  link: /art-graphique/

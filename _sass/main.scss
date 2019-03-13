@@ -1,12 +1,9 @@
 @import "variables";
 
-.navbar {
-  position: fixed;
-  top: 0px;
-}
-
 body {
-  padding-top: 55px;
+  font-family: 'Open Sans', sans-serif;
+}
+body, html {
   min-height: 100%;
 }
 
