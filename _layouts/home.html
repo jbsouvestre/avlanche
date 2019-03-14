@@ -1,21 +1,29 @@
 ---
 layout: default
 ---
-<section>
-    <div class="container">
-        <div class="row">
-            <header class="centered">
-                <h1>Avlanche</h1>
-                <p>
-                    Avlanche description, page welcome here
-                </p>
-            </header>
-        </div>
-    </div>
+<section class="avlanche-jumbotron">
+    <video id="avlanche-teaser" autoplay loop muted>
+        <source src="/assets/videos/teaser%20siteweb.webm" type="video/webm">
+    </video>
 </section>
 
 <section>
-    {% for musique in site.musique %}
-        {{ musique }}
-    {% endfor %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Cinéma</h2>
+            </div>
+        </div>
+
+        <div class="row">
+
+            {% for cinema in site.cinema %}
+            <div class="col-md-4">
+                {% include thumbnail.html title=cinema.title link=cinema.url image=cinema.image %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
 </section>

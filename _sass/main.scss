@@ -5,6 +5,8 @@ body {
 }
 body, html {
   min-height: 100%;
+  background-color: $dark-color;
+  color: #fff;
 }
 
 main {
@@ -14,5 +16,19 @@ main {
 @import "video/video";
 @import "video/videos";
 @import "footer/footer";
+
 @import "includes/share";
 @import "includes/navigation";
+@import "includes/thumbnail";
+
+.avlanche-jumbotron {
+  background-color: $dark-color-1;
+
+  #avlanche-teaser {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+
+  }
+}

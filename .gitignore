@@ -3,3 +3,7 @@ _site
 .jekyll-metadata
 
 project-assets/
+vendor
+node_modules
+
+.bundle
