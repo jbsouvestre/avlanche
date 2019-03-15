@@ -18,7 +18,7 @@ email: admin@avlanche.fr
 description: >- # this means to ignore newlines until "baseurl:"
   AVLANCHE est une plateforme de production artistique indépendante, qui va mettre en valeur des jeunes talents.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://avlanche.fr" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://avlanche.fr # the base hostname & protocol for your site, e.g. http://example.com
 
 logo: /assets/images/logo.png
 
