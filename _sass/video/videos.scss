@@ -1,0 +1,15 @@
+.video-card {
+  h3 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  h3, p {
+    color: #777;
+  }
+
+  p {
+    font-size: $text-small;
+  }
+}

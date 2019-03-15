@@ -1,0 +1,10 @@
+- name: Musique
+  link: /musique/
+- name: Cinema
+  link: /cinema/
+- name: Photographie
+  link: /photography/
+- name: Mode
+  link: /mode/
+- name: Art Graphique
+  link: /art-graphique/

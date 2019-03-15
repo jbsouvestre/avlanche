@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<section class="video">
+    <div class="backdrop">
+        <div class="row">
+            {% include youtube_embed.html id=page.youtube_id %}
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>{{page.title}}</h2>
+            </div>
+            <!--<div class="col-sm-3 col-sm-offset-3">-->
+                <!--{% include share.html %}-->
+            <!--</div>-->
+        </div>
+
+        <p class="description">
+            {{ page.description }}
+        </p>
+        <hr>
+        <p>
+            {{ page.content }}
+        </p>
+    </div>
+</section>
