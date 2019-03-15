@@ -9,18 +9,19 @@ layout: default
 
 <section>
 
+
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2>Cinéma</h2>
+                <h2><a href="/musique">Musique</a></h2>
             </div>
         </div>
 
         <div class="row">
 
-            {% for cinema in site.cinema %}
+            {% for musique in site.musique %}
             <div class="col-md-4">
-                {% include thumbnail.html title=cinema.title link=cinema.url image=cinema.image %}
+                {% include thumbnail.html title=musique.title link=musique.url image=musique.image %}
             </div>
             {% endfor %}
         </div>

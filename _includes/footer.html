@@ -1,8 +1,23 @@
-<footer id="footer">
+<footer id="footer" class="avlanche-footer">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                {{ site.title }} &copy;
+                {{ site.title | uppercase }} &copy;
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 avlanche-social">
+                <a href="https://instagram.com/{{site.instagram.username}}" target="_blank">
+                    <img src="/assets/images/social/instagram.png" alt="instagram logo">
+                </a>
+
+                <a href="https://facebook.com/{{site.facebook.username}}" target="_blank">
+                    <img src="/assets/images/social/facebook.png" alt="facebook logo">
+                </a>
+
+                <a href="https://youtube.com/channel/{{site.youtube.username}}" target="_blank">
+                    <img src="/assets/images/social/youtube.png" alt="youtube logo">
+                </a>
             </div>
         </div>
 

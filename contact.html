@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 <form action="https://getform.io/f/3506152a-666a-42fe-8240-bac9a28e9c65" method="POST">
-
+    <h2>Nous Contacter</h2>
     <div class="form-group">
         <label for="id_name">Nom</label>
         <input id="id_name" type="text" name="name" class="form-control" required>
@@ -17,10 +17,13 @@ permalink: /contact/
 
     <div class="form-group">
         <label for="id_message">Votre message</label>
-        <textarea id="id_message" name="message" class="form-control" required></textarea>
+        <textarea id="id_message" name="message" class="form-control" required rows="20"></textarea>
     </div>
 
     <div class="form-group">
-        <button type="submit" class="btn btn-primary">Send</button>
+        <button type="submit" class="btn btn-primary btn-block btn-lg">
+            <i class="fa fa-send"></i>
+            Send
+        </button>
     </div>
 </form>

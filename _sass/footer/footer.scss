@@ -1,5 +1,17 @@
 $footer-height: 40px;
-$footer-bg: #ccc;
 
-#footer {
+$social-icons-size: 30px;
+
+.avlanche-footer{
+
+  text-align: center;
+
+  .avlanche-social {
+    img {
+      width: $social-icons-size;
+      height: $social-icons-size;
+
+      margin: 10px;
+    }
+  }
 }

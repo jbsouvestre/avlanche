@@ -12,8 +12,12 @@
             </a>
         </div>
         <div class="navbar-collapse collapse">
+            <a href="/">
+                <img src="/assets/images/avlanche-transparent.png" alt="" id="avlanche-navbar-header">
+            </a>
+        </div>
+        <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-center" id="main-menu">
-
                 {% for item in site.data.navigation %}
                 <li {% if page.url == item.link %}class="active" {% endif %}>
                     <a href="{{item.link}}" >

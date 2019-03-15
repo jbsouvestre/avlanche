@@ -5,10 +5,13 @@ $text-small: 12px;
 
 // COLORS
 // ------
+
 $primary-color: #ffef0d;
 
+
+
 $dark-color: #02000a;
-$dark-color-1: #353535;
+$dark-color-1: #17151d;
 
 
 // VIDEO
@@ -16,3 +19,7 @@ $dark-color-1: #353535;
 
 $backdrop-color: #666666;
 $backdrop-padding: 30px 50px;
+
+// BOOTSTRAP OVERRIDES
+$brand-primary: $primary-color;
+$text-color: $primary-color;

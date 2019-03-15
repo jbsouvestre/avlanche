@@ -41,6 +41,9 @@ instagram:
 facebook:
   username: avlancheprod
 
+youtube:
+  username: UCQiHZVLeWioIjQJYVwIsLCA
+
 collections:
   musique:
     output: true
@@ -65,6 +68,9 @@ defaults:
       type: "cinema"
     values:
       layout: "thing"
+
+plugins:
+  - jekyll-bootstrap-sass
 
 #
 #feed:

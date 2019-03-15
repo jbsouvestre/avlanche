@@ -1,16 +1,35 @@
 @import "variables";
 
+@import 'bootstrap-custom';
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
 body, html {
   min-height: 100%;
+  height: 100%;
   background-color: $dark-color;
-  color: #fff;
+}
+#wrapper {
+  min-height: 100%;
+  position: relative;
 }
 
 main {
   min-height: 100%;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase;
 }
 
 @import "video/video";
@@ -20,6 +39,7 @@ main {
 @import "includes/share";
 @import "includes/navigation";
 @import "includes/thumbnail";
+@import "utils";
 
 .avlanche-jumbotron {
   background-color: $dark-color-1;
@@ -29,6 +49,9 @@ main {
     width: 50%;
     margin: 0 auto;
     display: block;
-
   }
+}
+
+.btn.btn-primary {
+  color: $dark-color;
 }
