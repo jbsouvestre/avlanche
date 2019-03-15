@@ -1,14 +1,14 @@
 ---
 title: Session Live S1/EP1 - PHELTO
 youtube_id: Ag71zfXii3c
-description: Voici le premier épisode de notre série "Session Live" avec Phelto. Cette série vise à faire découvrir de jeunes chanteurs, rappeurs, DJ's ou tout autre type de créateurs musicaux. 
+description: Voici le premier épisode de notre série "Session Live" avec Phelto. Cette série vise à faire découvrir de nouveaux artistes dans des univers musicaux variés. 
 image: /assets/cinema/PHELTO-MIX-5_Moment_Moment.jpg
 ---
 Avec             Phelto
 
 Réalisé par                     Nataass
 
-Directeur de la photographie    Chris - WEATHLY
+Directeur de la photographie    Chris - WEATHLEY
 
 Assistante réalisateur          Emma LEROUX
 
