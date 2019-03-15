@@ -10,7 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 # gem "jekyll", "~> 3.7.4"
 
-gem 'jekyll-bootstrap-sass'
+
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -22,6 +22,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'jekyll-watch'
+  gem 'jekyll-bootstrap-sass'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
