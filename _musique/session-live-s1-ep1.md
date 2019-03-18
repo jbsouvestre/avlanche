@@ -8,13 +8,14 @@ Avec             Phelto
 
 Réalisé par                     Nataass
 
-Directeur de la photographie    Chris - WEATHLEY
+Directeur de la photographie    Chris WEATHLEY
 
 Assistante réalisateur          Emma LEROUX
 
 Cadreur                         Lucas DOUAY
 
-Ingénieurs du son               Théo LARROQUE, Matteo D'AMICO
+Ingénieurs du son               Théo LARROQUE
+                                Matteo D'AMICO
 
 Mixage son                      Antoine RICOUX
 
@@ -22,7 +23,7 @@ Régie                           Dorian DACUNHA
                                 Thibault GUEVILLE
 
 Maquillage                      Ameline BLADT
-	                        Juliette DANIEL
+	                            Juliette DANIEL
 
 Etalonnage                      Ulysse GAILLOT
 
