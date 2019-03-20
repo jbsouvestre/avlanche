@@ -17,6 +17,5 @@
   },
   "homepage": "https://github.com/jbsouvestre/avlanche#readme",
   "dependencies": {
-    "simple-jekyll-search": "^1.7.2"
   }
 }
