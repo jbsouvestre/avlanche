@@ -49,6 +49,21 @@ h1, h2, h3, h4, h5 {
     width: 50%;
     margin: 0 auto;
     display: block;
+
+    transition: width .2s ease;
+  }
+
+  @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    #avlanche-teaser {
+      width: 80%;
+    }
+  }
+
+
+  @media (max-width: $screen-sm-max) {
+    #avlanche-teaser {
+      width: 100%;
+    }
   }
 }
 
