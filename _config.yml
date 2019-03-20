@@ -30,6 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-bootstrap-sass
 
 google_analytics: UA-128865273-1
 
@@ -68,9 +69,6 @@ defaults:
       type: "cinema"
     values:
       layout: "thing"
-
-plugins:
-  - jekyll-bootstrap-sass
 
 #
 #feed:
