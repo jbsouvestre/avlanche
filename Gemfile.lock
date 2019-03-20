@@ -8,11 +8,6 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (9.5.0)
-      execjs
-    bootstrap-sass (3.3.7)
-      autoprefixer-rails (>= 5.2.1)
-      sass (>= 3.3.4)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -107,9 +102,6 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-avatar (0.6.0)
       jekyll (~> 3.0)
-    jekyll-bootstrap-sass (0.1.0)
-      bootstrap-sass (~> 3.3)
-      jekyll (>= 2.5)
     jekyll-coffeescript (1.1.1)
       coffee-script (~> 2.2)
       coffee-script-source (~> 1.11.1)
@@ -251,7 +243,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-bootstrap-sass
   jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
