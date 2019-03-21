@@ -30,6 +30,19 @@ $logo-size: 25px;
     font-weight: bold;
   }
 
+  @media (max-width: $screen-xs-max) {
+    .collapse {
+      max-height: 0;
+      transition: max-height .2s ease;
+      visibility: hidden;
+
+      &.in {
+        max-height: 300px;
+        visibility: visible;
+      }
+    }
+  }
+
   @media (min-width: $screen-sm-min) {
     .navbar-nav {
       width: 100%;
@@ -40,7 +53,6 @@ $logo-size: 25px;
       }
     }
   }
-
 }
 
 .navbar-brand {
