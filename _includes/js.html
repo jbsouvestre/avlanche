@@ -1,2 +1,17 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script>
+
+    (function() {
+        var toggle = '.navbar-toggle';
+        var collapse = '#avlanche-navbar-collapse';
+        var IN = 'in';
+        var AR_EXP = 'aria-expanded';
+
+        var $toggle = document.querySelector(toggle),
+            $collapse = document.querySelector(collapse);
+
+        $toggle.addEventListener('click', function () {
+            $collapse.classList.toggle('in');
+            $collapse.setAttribute(AR_EXP, $collapse.classList.contains(IN));
+        });
+    })();
+</script>
