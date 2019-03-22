@@ -8,7 +8,7 @@ Avec             Phelto
 
 
 {:.table}
-| Réalisé par | Nataass |
+| Réalisé par | @nataass_ |
 | Directeur de la photographie | Chris WEATHLEY |
 | Assistante réalisateur         | Emma LEROUX |
 | Cadreur                        | Lucas DOUAY |
@@ -20,7 +20,7 @@ Avec             Phelto
 | Maquillage                     | Ameline BLADT |
 |	                            | Juliette DANIEL |
 | Etalonnage                     | Ulysse GAILLOT |
-| Montage                        |Justine DECHAMPS |
+| Montage                        |Justine DÉCHAMPS |
 | Edition                         | Louis SOUVESTRE |
 
 Une production      AVLANCHE 
