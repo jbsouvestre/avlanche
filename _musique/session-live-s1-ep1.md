@@ -22,6 +22,9 @@ Avec             Phelto
 | Etalonnage                     | Ulysse GAILLOT |
 | Montage                        |Justine DÉCHAMPS |
 | Edition                         | Louis SOUVESTRE |
+| Renfort de plateau |            | Béatrice PARISOT |  
+| Photographe plateau |           | Alexis MAUPIN |
+| Chargé de communication |       | Alexis MAUPIN | 
 
 Une production      AVLANCHE 
 
