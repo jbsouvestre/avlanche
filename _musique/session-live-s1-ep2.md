@@ -1,10 +1,10 @@
 ---
-title: Session Live S1/EP1 - PHELTO
-youtube_id: Ag71zfXii3c
-description: Voici le premier épisode de notre série "Session Live" avec Phelto. Cette série vise à faire découvrir de nouveaux artistes dans des univers musicaux variés. 
-image: /assets/cinema/PHELTO-MIX-5_Moment_Moment.jpg
+title: Session Live S1/EP2 - IFÈ THE KEED
+youtube_id: de6Upw-5eZY
+description: Deuxième épisode de notre série "Session Live" avec IFÈ THE KEED. Cette série vise à faire découvrir de nouveaux artistes dans des univers musicaux variés. 
+image: /assets/musique/ife-the-keed.png
 ---
-Avec             Phelto
+Avec             IFÈ THE KEED
 
 
 {:.table}
@@ -18,7 +18,7 @@ Avec             Phelto
 | Régie                           | Dorian DACUNHA |
 |                                 |Thibault GUEVILLE |
 | Maquillage                     | Ameline BLADT |
-|	                            | Juliette DANIEL |
+|                                | Juliette DANIEL |
 | Etalonnage                     | Ulysse GAILLOT |
 | Montage                        |Justine DÉCHAMPS |
 | Edition                         | Louis SOUVESTRE |
@@ -30,13 +30,8 @@ Une production      AVLANCHE
 
 ----
 
-Suivez Phelto partout:  
+Suivez IFÈ THE KEED partout:  
 
 
-* [Youtube](https://www.youtube.com/channel/UCSrg8YPpUJDNNVL1RxadCFw)
-* [Instagram ](https://www.instagram.com/pheltosaure/)
-* [Twitter](https://twitter.com/pheltosaure)
-* [Bandcamp](https://phelto.bandcamp.com/)
-* [Soundcloud](https://soundcloud.com/pheltoz)
-* [Facebook](https://www.facebook.com/pheltosaure/)
-
+* [Instagram ](https://www.instagram.com/0rangevelours/)
+* [Facebook](https://www.facebook.com/tagutetbizu/)
