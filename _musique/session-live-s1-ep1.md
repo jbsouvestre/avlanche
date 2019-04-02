@@ -24,7 +24,7 @@ Avec             Phelto
 | Edition                         | Louis SOUVESTRE |
 | Renfort de plateau             | Béatrice PARISOT |  
 | Photographe plateau            | Alexis MAUPIN |
-| Chargé de communication        | Alexis MAUPIN | 
+| Chargé communication           | Alexis MAUPIN | 
 
 Une production      AVLANCHE 
 
