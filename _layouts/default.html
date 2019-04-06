@@ -9,6 +9,7 @@
     <title>{% if page.title %}{{page.title}} | {%endif %}{{ site.title }}</title>
 
     {%- include head.html -%}
+    {% contentblock css no-convert %}
 </head>
 <body>
 
@@ -20,8 +21,8 @@
     </main>
 
     {%- include footer.html -%}
-
-    {%- include js.html -%}
 </div>
+{%- include js.html -%}
+{% contentblock js no-convert %}
 </body>
 </html>

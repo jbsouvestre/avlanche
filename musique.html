@@ -14,7 +14,7 @@ title: Musique
     </div>
 
     <div class="row">
-        {% assign musiques = (site.musique| sort: 'date') | reverse %}
+        {% assign musiques = site.musique | sort: 'date' | reverse %}
         {% for musique in musiques %}
         <div class="col-md-4">
             {% include thumbnail.html title=musique.title link=musique.url image=musique.image %}

@@ -19,9 +19,9 @@ layout: default
 
         <div class="row">
 
-            {% assign musiques = (site.musique| sort: 'date') | reverse %}
+            {% assign musiques = site.musique| sort: 'date' | reverse %}
             {% for musique in musiques %}
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6 col-xs-12">
                 {% include thumbnail.html title=musique.title link=musique.url image=musique.image %}
             </div>
             {% endfor %}
@@ -36,9 +36,10 @@ layout: default
         </div>
 
         <div class="row">
-            {% for photo in site.photography %}
-            <div class="col-md-4">
-                {% include thumbnail.html title=photo.title link=photo.url %}
+            {% assign photos = site.photography | sort: 'date' | reverse%}
+            {% for photo in photos %}
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                {% include thumbnail.html title=photo.title link=photo.url image=photo.cover %}
             </div>
             {% endfor %}
         </div>
