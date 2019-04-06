@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+{% contentfor css %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.1.3/src/css/lightgallery.css">
+{% endcontentfor %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>{{ page.title }}</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div id="gallery">
+            {% for photo in (1..page.items) %}
+            {% capture base_img_url %}{{page.folder}}/{{photo}}.jpg{% endcapture %}
+            {% capture img_url %}https://res.cloudinary.com/{{site.cloudinary.cloud_name}}/image/upload/{{base_img_url}}{% endcapture %}
+            {% capture thumb_url%}https://res.cloudinary.com/{{site.cloudinary.cloud_name}}/image/upload/c_thumb,w_200,h_200/{{base_img_url}}{% endcapture %}
+
+            <a href="{{img_url}}" class="col-xs-12 col-sm-2">
+                <img src="{{thumb_url}}" class="img-responsive" style="margin: 0 auto;">
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% contentfor js %}
+<script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.1.3/dist/js/lightgallery.min.js"></script>
+<script>
+    (function() {
+        lightGallery(document.getElementById('gallery'), {
+            thumbnail: true,
+            animateThumb: true,
+            showThumbByDefault: true,
+            download: false
+        });
+    })();
+
+</script>
+{% endcontentfor %}
