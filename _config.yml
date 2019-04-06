@@ -31,7 +31,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-bootstrap-sass
-  - jekyll-cloudinary
+  - jekyll-contentblocks
 
 google_analytics: UA-128865273-1
 
