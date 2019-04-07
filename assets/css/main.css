@@ -1109,7 +1109,7 @@ h2 { font-weight: 600; }
 .video-card h3, .video-card p { color: #777; }
 .video-card p { font-size: 12px; }
 
-.avlanche-footer { text-align: center; }
+.avlanche-footer { padding-top: 50px; text-align: center; }
 .avlanche-footer .avlanche-social img { width: 30px; height: 30px; margin: 10px; }
 
 .share-page .social-icon { border: 1px solid #151515; color: #151515; }
