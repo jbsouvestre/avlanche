@@ -16,7 +16,7 @@ title: Photographie
     <div class="row">
         {% assign photos = site.photography | sort: 'date' | reverse %}
         {% for photo in photos %}
-        <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="col-md-4 col-sm-6 col-xs-6">
             {% include thumbnail.html title=photo.title link=photo.url image=photo.image %}
         </div>
         {% endfor %}
