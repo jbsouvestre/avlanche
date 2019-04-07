@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+
+bundle exec jekyll build
+touch ./_site/.nojekyll
+
