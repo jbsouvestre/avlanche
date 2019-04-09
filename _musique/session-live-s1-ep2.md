@@ -3,6 +3,7 @@ title: Session Live S1/EP2 - IFÈ THE KEED
 youtube_id: de6Upw-5eZY
 description: Deuxième épisode de notre série "Session Live" avec IFÈ THE KEED. Cette série vise à faire découvrir de nouveaux artistes dans des univers musicaux variés. 
 image: /assets/musique/ife-the-keed.png
+date: 2019-03-28 12:00
 ---
 Avec             IFÈ THE KEED
 
