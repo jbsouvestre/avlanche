@@ -15,10 +15,8 @@ layout: default
         <div class="row">
             <div class="col-sm-6">
                 <h2>{{page.title}}</h2>
+                <h5 title="{{ page.date }}">{{ page.date | date_to_string }}</h5>
             </div>
-            <!--<div class="col-sm-3 col-sm-offset-3">-->
-                <!--{% include share.html %}-->
-            <!--</div>-->
         </div>
 
         <p class="description">
