@@ -81,11 +81,12 @@ defaults:
       type: "photography"
     values:
       layout: "photo"
-#
-#feed:
-#  collections:
-#    videos:
-#      path: "/videos.xml"
+
+
+feed:
+  collections:
+    - photography
+    - musique
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
