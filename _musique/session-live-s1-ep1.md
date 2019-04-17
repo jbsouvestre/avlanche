@@ -2,7 +2,7 @@
 title: Session Live S1/EP1 - PHELTO
 youtube_id: Ag71zfXii3c
 description: Voici le premier épisode de notre série "Session Live" avec Phelto. Cette série vise à faire découvrir de nouveaux artistes dans des univers musicaux variés. 
-image: /assets/cinema/PHELTO-MIX-5_Moment_Moment.jpg
+image: /assets/musique/PHELTO-MIX-5_Moment_Moment.jpg
 date: 2019-03-15 12:00
 ---
 Avec             Phelto
