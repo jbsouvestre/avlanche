@@ -1127,7 +1127,7 @@ h2 { font-weight: 600; }
 .navbar-brand img { height: 25px; width: 25px; }
 
 @media (min-width: 768px) { .navbar { min-height: 150px; } }
-.avlanche-thumbnail h4 { text-overflow: ellipsis; white-space: nowrap; }
+.avlanche-thumbnail h5 { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
 
 .text-center { text-align: center; }
 
