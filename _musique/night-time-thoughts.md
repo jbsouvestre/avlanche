@@ -2,7 +2,7 @@
 title: Night Time Thoughts - PHELTO X IFÈ THE KEED
 youtube_id: 4btBJlLKw1E
 description: Nous vous présentons le résultat du premier "FUZION" avec Phelto et Ifè The Keed.
-image: /assets/cinema/Fuzion.jpg
+image: /assets/musique/Fuzion.jpg
 date: 2019-04-14 19:00
 ---
 Avec             Phelto x Ifè The Keed

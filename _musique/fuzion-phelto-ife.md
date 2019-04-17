@@ -2,7 +2,7 @@
 title: FUZION S1/EP1
 youtube_id: jOBftTqkWz4
 description: Avlanche vous présente le premier épisode de la série "FUZION" Un concept original qui a pour but de faire rencontrer deux artistes dans un home studio et laisser la magie opérer...
-image: /assets/cinema/FUZION-EP1-S1.jpg
+image: /assets/musique/FUZION-EP1-S1.png
 date: 2019-04-13 17:00
 ---
 Avec             Phelto x Ifè The Keed
