@@ -1119,12 +1119,18 @@ h2 { font-weight: 600; }
 .navbar { background-color: #ffef0d; border-radius: 0; border: none; margin-bottom: 0px; transition: min-height .2s ease; }
 .navbar .navbar-collapse { border-color: transparent; }
 .navbar .navbar-nav > .active > a, .navbar .navbar-nav > li > a:active, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li.active > a:hover { background-color: #ffef0d; font-weight: bold; }
+.navbar .navbar-toggle { position: relative; }
+.navbar .navbar-toggle .icon-bar { background-color: #777; transition: all .2s ease; transform: rotate(0); }
+.navbar .navbar-toggle.open .icon-bar:nth-child(3) { opacity: 0; }
+.navbar .navbar-toggle.open .icon-bar:nth-child(2) { transform: rotate(45deg); position: absolute; top: 14px; }
+.navbar .navbar-toggle.open .icon-bar:nth-child(4) { transform: rotate(-45deg); position: absolute; top: 10px; }
 @media (max-width: 767px) { .navbar .collapse { max-height: 0; transition: max-height .2s ease; visibility: hidden; }
   .navbar .collapse.in { max-height: 300px; visibility: visible; } }
 @media (min-width: 768px) { .navbar .navbar-nav { width: 100%; text-align: center; }
   .navbar .navbar-nav > li { float: none; display: inline-block; } }
 
-.navbar-brand img { height: 25px; width: 25px; }
+.navbar-brand img { height: 25px; }
+.navbar-brand .avlanche-logo-mobile { margin-left: -25px; }
 
 @media (min-width: 768px) { .navbar { min-height: 150px; } }
 .avlanche-thumbnail h5 { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }

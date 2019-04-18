@@ -41,7 +41,9 @@
                 <span class="icon-bar"></span>
             </button>
             <a href="/" class="navbar-brand">
-                <img src="/assets/images/logo-2.png" alt="logo">
+                <img src="/assets/images/logo-2.png" alt="logo" class="hidden-xs">
+                <img src="/assets/images/avlanche-transparent2.png" class="visible-xs-inline-block avlanche-logo-mobile">
+
             </a>
         </div>
         <div class="navbar-collapse collapse hidden-xs">
@@ -940,6 +942,9 @@
             $collapse = document.querySelector(collapse);
 
         $toggle.addEventListener('click', function () {
+
+            $toggle.classList.toggle('open');
+
             $collapse.classList.toggle('in');
             $collapse.setAttribute(AR_EXP, $collapse.classList.contains(IN));
         });
