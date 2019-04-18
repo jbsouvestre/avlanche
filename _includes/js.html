@@ -9,6 +9,9 @@
             $collapse = document.querySelector(collapse);
 
         $toggle.addEventListener('click', function () {
+
+            $toggle.classList.toggle('open');
+
             $collapse.classList.toggle('in');
             $collapse.setAttribute(AR_EXP, $collapse.classList.contains(IN));
         });

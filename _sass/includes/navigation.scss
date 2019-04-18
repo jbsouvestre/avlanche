@@ -30,6 +30,43 @@ $logo-size: 25px;
     font-weight: bold;
   }
 
+  .navbar-toggle {
+
+    position: relative;
+
+
+    .icon-bar {
+      background-color: #777;
+      transition: all .2s ease;
+      transform: rotate(0);
+    }
+
+    &.open {
+      .icon-bar {
+
+        // .sr-only div above
+        &:nth-child(3) {
+          opacity: 0;
+        }
+
+        $x: 5px;
+        $y: 3px;
+
+        &:nth-child(2) {
+          transform: rotate(45deg);
+          position: absolute;
+          top: 14px;
+        }
+
+        &:nth-child(4) {
+          transform: rotate(-45deg);
+          position: absolute;
+          top: 10px;
+        }
+      }
+    }
+  }
+
   @media (max-width: $screen-xs-max) {
     .collapse {
       max-height: 0;
@@ -58,7 +95,11 @@ $logo-size: 25px;
 .navbar-brand {
   img {
     height: $logo-size;
-    width: $logo-size;
+    //width: $logo-size;
+  }
+
+  .avlanche-logo-mobile {
+    margin-left: -$logo-size;
   }
 }
 
