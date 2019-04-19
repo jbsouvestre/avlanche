@@ -25,7 +25,7 @@ layout: default
             {% capture img_url %}https://res.cloudinary.com/{{site.cloudinary.cloud_name}}/image/upload/{{base_img_url}}{% endcapture %}
             {% capture thumb_url%}https://res.cloudinary.com/{{site.cloudinary.cloud_name}}/image/upload/c_thumb,w_200,h_200/{{base_img_url}}{% endcapture %}
 
-            <a href="{{img_url}}" class="col-xs-12 col-sm-2">
+            <a href="{{img_url}}" class="col-xs-6 col-sm-2" style="margin-bottom: 5px;">
                 <img src="{{thumb_url}}" class="img-responsive" style="margin: 0 auto;">
             </a>
             {% endfor %}
