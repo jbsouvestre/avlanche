@@ -95,8 +95,8 @@ exclude:
    - script/
    - readme.md
    - CNAME
-   - Gemfile
-   - Gemfile.lock
+   - Gemfile*
+   - Pipfile*
    - node_modules
    - vendor/bundle/
    - vendor/cache/

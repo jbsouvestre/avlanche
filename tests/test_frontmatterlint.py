@@ -5,10 +5,8 @@ import frontmatter
 import pytest
 from slugify import slugify
 
-post = frontmatter.load('_photography/avlanche-release-party.md')
-
 DEFAULT_RULES = 'default'
-
+ALLOWED_FORMATS = [".md"]
 
 class TestFrontMatterLint:
     @pytest.fixture(autouse=True)
@@ -59,7 +57,7 @@ class TestFrontMatterLint:
             raise AssertionError(
                 "'{}' is not in slug format. Should probably be '{}'".format(filename, slugify(filename)))
 
-        if not extension == ".md":
+        if extension not in ALLOWED_FORMATS:
             raise AssertionError("{} is not im 'md' format".format(file))
 
     def _get_rules_for(self, collection: str):

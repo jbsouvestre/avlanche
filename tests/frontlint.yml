@@ -11,6 +11,5 @@ rules:
   photography:
     - folder
     - items
-    - date
   musique:
     - youtube_id
