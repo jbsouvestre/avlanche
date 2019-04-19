@@ -102,4 +102,5 @@ exclude:
    - vendor/cache/
    - vendor/gems/
    - vendor/ruby/
-
+   - tests/
+   - setup.cfg
