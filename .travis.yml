@@ -5,7 +5,7 @@ matrix:
       install:
         - pip install pipenv
         - pipenv install
-      script: pytest
+      script: pytest --tb=line
 
     - language: ruby
       rvm:
