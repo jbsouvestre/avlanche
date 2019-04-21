@@ -1,0 +1,15 @@
+collections:
+  - photography
+  - musique
+
+rules:
+  default:
+    - title
+    - image
+    - description
+    - date
+  photography:
+    - folder
+    - items
+  musique:
+    - youtube_id

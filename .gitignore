@@ -1,5 +1,6 @@
 _site
 .sass-cache
+.pytest_cache
 .jekyll-metadata
 
 project-assets/
