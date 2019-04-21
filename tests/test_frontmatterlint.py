@@ -46,8 +46,9 @@ class TestFrontMatterLint:
 
     @staticmethod
     def _test_file_rules(post, rules):
-        for rule in rules:
-            assert rule in post.keys(), "Missing metadata value: {}".format(rule)
+        diff = set(sorted(rules)) - set(sorted([k for k in post.keys()]))
+        if len(diff) != 0:
+            raise AssertionError("Post is missing the following keys: {}".format(diff))
 
     @staticmethod
     def _test_file_format(file: str):
