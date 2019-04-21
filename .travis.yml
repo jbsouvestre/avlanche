@@ -37,3 +37,6 @@ matrix:
         fqdn: avlanche.fr
         on:
           branch: master
+
+notifications:
+    webhooks: https://www.travisbuddy.com/?insertMode=update
