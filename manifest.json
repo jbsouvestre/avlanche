@@ -1,0 +1,13 @@
+{
+    "name": "Avlanche",
+    "description": "AVLANCHE est une plateforme de production artistique indépendante, qui va mettre en valeur des jeunes talents.",
+    "start_url": ".",
+    "display": "standalone",
+    "background-color": "#ffef0d",
+    "lang": "fr_FR",
+    "icons": [{
+        "src": "/assets/images/logo.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }]
+}
