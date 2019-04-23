@@ -1,9 +1,10 @@
 {%- seo -%}
 <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 {%- feed_meta -%}
-<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed/musique.xml" title="Avlanche | Musique">
-<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed/photography.xml" title="Avlanche | Photography">
+<link type="application/atom+xml" rel="alternate" href="{{"feed/musique.xml" | relative_url}}" title="Avlanche | Musique">
+<link type="application/atom+xml" rel="alternate" href="{{"feed/photography.xml" | relative_url }}" title="Avlanche | Photography">
 {%- if jekyll.environment == 'production' and site.google_analytics -%}
 {%- include google-analytics.html -%}
 {%- endif -%}
-<meta name="theme-color" content="#ffef0d">
+<meta name="theme-color" content="{{ site.color }}">
+<link rel="stylesheet" href="/manifest.json">

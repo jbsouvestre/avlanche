@@ -35,6 +35,8 @@ plugins:
   - jekyll-bootstrap-sass
   - jekyll-contentblocks
 
+color: "#ffef0d"
+
 google_analytics: UA-128865273-1
 
 get_form: 3506152a-666a-42fe-8240-bac9a28e9c65

@@ -2,9 +2,10 @@ _site
 .sass-cache
 .pytest_cache
 .jekyll-metadata
+.bundle
+.mypy_cache
 
 project-assets/
 vendor
 node_modules
 
-.bundle
