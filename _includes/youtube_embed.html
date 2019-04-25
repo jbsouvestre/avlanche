@@ -1,7 +1,44 @@
 <div class="embed-container embed-responsive embed-responsive-16by9">
-    <iframe
-            src="https://www.youtube.com/embed/{{ include.id }}"
-            frameborder="0"
-            allowfullscreen="">
-    </iframe>
+    <div id="player" ></div>
 </div>
+
+{% contentfor js %}
+<script>
+    var tag = document.createElement('script');
+    tag.src = "//www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    var player;
+    var videoId = "{{ include.id }}"
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+            videoId: videoId,
+            events: {
+                onStateChange: onPlayerStateChange
+            }
+        })
+    }
+
+    function onPlayerStateChange(event) {
+        var eventName;
+        switch(event.data) {
+            case YT.PlayerState.PLAYING:
+                eventName = 'Video Playing';
+                break;
+            case YT.PlayerState.PAUSED:
+                eventName = 'Video Paused';
+                break;
+            case YT.PlayerState.ENDED:
+                eventName = 'Video Ended';
+                break;
+        }
+
+        if(eventName) {
+            mixpanel.track(eventName, {
+                videoId: videoId
+            });
+        }
+    }
+</script>
+{% endcontentfor %}
