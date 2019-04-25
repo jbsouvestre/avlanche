@@ -1,15 +1,17 @@
-var EVENTS = {
-    ClickedNavLink: 'Clicked Nav Link',
-    ClickedSocialLink: 'Clicked Social Link',
-    IgnoreMe: 'Ignore Me'
-};
+;(function() {
+    'use strict';
 
-mixpanel.track_links(
-    '#main-menu a',
-    EVENTS.ClickedNavLink
-);
+    var EVENTS = {
+        ClickedNavLink: 'Clicked Nav Link',
+        ClickedSocialLink: 'Clicked Social Link',
+        IgnoreMe: 'Ignore Me'
+    };
 
-mixpanel.track_links(
-    '.avlanche-social a',
-    EVENTS.ClickedSocialLink
-);
+    var SELECTORS = {
+        Nav: '#main-menu a',
+        Social: '.avlanche-social a'
+    };
+
+    mixpanel.track_links(SELECTORS.Nav, EVENTS.ClickedNavLink);
+    mixpanel.track_links(SELECTORS.Social, EVENTS.ClickedSocialLink);
+})();
