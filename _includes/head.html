@@ -21,3 +21,10 @@ mixpanel.init("{{site.mixpanel.production}}");
 mixpanel.init("{{site.mixpanel.development}}");
 {%- endif -%}
 </script><!-- end Mixpanel -->
+<script src="https://browser.sentry-cdn.com/5.1.1/bundle.min.js" crossorigin="anonymous"></script>
+<script>
+    Sentry.init({
+        dsn: '{{site.sentry.dsn}}',
+        environment: '{{ jekyll.environment }}'
+    });
+</script>
