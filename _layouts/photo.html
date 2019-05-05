@@ -21,7 +21,7 @@ layout: default
     <div class="row">
         <div id="gallery">
             {% for photo in (1..page.items) %}
-            {% capture base_img_url %}{{page.folder}}/{{photo}}.jpg{% endcapture %}
+            {% capture base_img_url %}{{page.folder}}/{{photo}}{% endcapture %}
             {% capture img_url %}https://res.cloudinary.com/{{site.cloudinary.cloud_name}}/image/upload/{{base_img_url}}{% endcapture %}
             {% capture thumb_url%}https://res.cloudinary.com/{{site.cloudinary.cloud_name}}/image/upload/c_thumb,w_200,h_200/{{base_img_url}}{% endcapture %}
 
