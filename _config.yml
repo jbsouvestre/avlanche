@@ -32,7 +32,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-bootstrap-sass
   - jekyll-contentblocks
 
 color: "#ffef0d"
@@ -42,6 +41,9 @@ google_analytics: UA-128865273-1
 mixpanel:
     production: 05912e902cc00998764d089eaf5fe545
     development: 895a012126965dd879c91d68fc43d163
+
+sentry:
+    dsn: https://7cba1e854aeb40f08ddf873282e0c01d@sentry.io/1452827
 
 get_form: 3506152a-666a-42fe-8240-bac9a28e9c65
 
