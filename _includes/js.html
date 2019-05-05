@@ -9,7 +9,7 @@
             $collapse = document.querySelector(collapse);
 
         $toggle.addEventListener('click', function () {
-
+            mixpanel.track('Toggle Menu');
             $toggle.classList.toggle('open');
 
             $collapse.classList.toggle('in');
@@ -17,3 +17,4 @@
         });
     })();
 </script>
+<script src="/assets/js/analytics.js"></script>
