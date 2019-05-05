@@ -7,8 +7,8 @@ description: Shooting Hugo x Shino x Boubou
 date: 2019-05-05 00:01
 ---
 
-Credits photos : [Hugo Descarrega](https://www.instagram.com/h0da.h0da/)
+Photos : [Hugo Descarrega](https://www.instagram.com/h0da.h0da/)
+
+Dessins par : [Shino](https://www.instagram.com/shinoart/)
 
 Avec : [Boubou](https://www.instagram.com/boubou.photo/)
-
-Dessins : [Shino](https://www.instagram.com/shinoart/)
