@@ -2,7 +2,7 @@
 title: Session Live S1/EP3 - DK DIZZY
 youtube_id: Bb_sqO5P5VA 
 description: Voici le troisième épisode de notre série "Session Live" avec DK DIZZY. Cette série vise à faire découvrir de nouveaux artistes dans des univers musicaux variés. 
-image: assets/musique/DKDIZZY2_Moment.jpg
+image: /assets/musique/DKDIZZY2_Moment.jpg
 date: 2019-05-19 12:00
 ---
 Avec             DK DIZZY
