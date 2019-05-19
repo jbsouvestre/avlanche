@@ -6,18 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <title>Avlanche</title><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Avlanche | AVLANCHE est une plateforme de production artistique indépendante, qui va mettre en valeur des jeunes talents.</title>
+    <title>Session Live S1/EP3 - DK DIZZY | Avlanche</title><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Session Live S1/EP3 - DK DIZZY | Avlanche</title>
 <meta name="generator" content="Jekyll v3.7.4" />
-<meta property="og:title" content="Avlanche" />
+<meta property="og:title" content="Session Live S1/EP3 - DK DIZZY" />
 <meta property="og:locale" content="fr_FR" />
-<meta name="description" content="AVLANCHE est une plateforme de production artistique indépendante, qui va mettre en valeur des jeunes talents." />
-<meta property="og:description" content="AVLANCHE est une plateforme de production artistique indépendante, qui va mettre en valeur des jeunes talents." />
-<link rel="canonical" href="https://avlanche.fr/" />
-<meta property="og:url" content="https://avlanche.fr/" />
+<meta name="description" content="Voici le troisième épisode de notre série “Session Live” avec DK DIZZY. Cette série vise à faire découvrir de nouveaux artistes dans des univers musicaux variés." />
+<meta property="og:description" content="Voici le troisième épisode de notre série “Session Live” avec DK DIZZY. Cette série vise à faire découvrir de nouveaux artistes dans des univers musicaux variés." />
+<link rel="canonical" href="https://avlanche.fr/musique/Session%20Live%20S1/DK%20DIZZY%20-%20Session%20live%20s1ep3" />
+<meta property="og:url" content="https://avlanche.fr/musique/Session%20Live%20S1/DK%20DIZZY%20-%20Session%20live%20s1ep3" />
 <meta property="og:site_name" content="Avlanche" />
+<meta property="og:image" content="https://avlanche.fr/assets/musique/DKDIZZY2_Moment.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-05-19T12:00:00+02:00" />
 <script type="application/ld+json">
-{"name":"Avlanche","description":"AVLANCHE est une plateforme de production artistique indépendante, qui va mettre en valeur des jeunes talents.","@type":"WebSite","url":"https://avlanche.fr/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://avlanche.fr/assets/images/logo.png"}},"headline":"Avlanche","@context":"http://schema.org"}</script>
+{"description":"Voici le troisième épisode de notre série “Session Live” avec DK DIZZY. Cette série vise à faire découvrir de nouveaux artistes dans des univers musicaux variés.","@type":"BlogPosting","url":"https://avlanche.fr/musique/Session%20Live%20S1/DK%20DIZZY%20-%20Session%20live%20s1ep3","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://avlanche.fr/assets/images/logo.png"}},"image":"https://avlanche.fr/assets/musique/DKDIZZY2_Moment.jpg","headline":"Session Live S1/EP3 - DK DIZZY","dateModified":"2019-05-19T12:00:00+02:00","datePublished":"2019-05-19T12:00:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://avlanche.fr/musique/Session%20Live%20S1/DK%20DIZZY%20-%20Session%20live%20s1ep3"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/main.css"><link type="application/atom+xml" rel="alternate" href="https://avlanche.fr/feed.xml" title="Avlanche" /><link type="application/atom+xml" rel="alternate" href="/feed/musique.xml" title="Avlanche | Musique">
 <link type="application/atom+xml" rel="alternate" href="/feed/photography.xml" title="Avlanche | Photography"><script>
@@ -109,109 +112,59 @@
 </div>
 
     <main>
-        <section class="avlanche-jumbotron">
-    
-    <video id="avlanche-teaser" autoplay loop muted playsinline poster="https://res.cloudinary.com/avlanche-fr/video/upload/so_0.5/teaser_siteweb.jpg">
-        <source src="https://res.cloudinary.com/avlanche-fr/video/upload/so_0.5/teaser_siteweb.webm" type="video/webm">
-        <source src="https://res.cloudinary.com/avlanche-fr/video/upload/so_0.5/teaser_siteweb.mp4" type="video/mp4">
-    </video>
-</section>
-
-<section>
-
-
-    <div class="container">
+        <section class="video">
+    <div class="backdrop">
         <div class="row">
-            <div class="col-lg-12">
-                <h2><a href="/musique">Musique</a></h2>
-            </div>
-        </div>
+            <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                <div class="embed-container embed-responsive embed-responsive-16by9">
+    <div id="player" ></div>
+</div>
 
-        <div class="row">
 
-            
-            
-            <div class="col-md-4 col-sm-6 col-xs-6">
-                <div class="avlanche-thumbnail">
-    <a href="/musique/Session%20Live%20S1/DK%20DIZZY%20-%20Session%20live%20s1ep3">
-        <h5 title="Session Live S1/EP3 - DK DIZZY">Session Live S1/EP3 - DK DIZZY</h5>
-        <img src="assets/musique/DKDIZZY2_Moment.jpg" alt="Session Live S1/EP3 - DK DIZZY thumbnail" class="img-responsive" style="object-fit: cover">
-    </a>
-</div>
             </div>
-            
-            <div class="col-md-4 col-sm-6 col-xs-6">
-                <div class="avlanche-thumbnail">
-    <a href="/musique/night-time-thoughts.html">
-        <h5 title="Night Time Thoughts - PHELTO X IFÈ THE KEED">Night Time Thoughts - PHELTO X IFÈ THE KEED</h5>
-        <img src="/assets/musique/Fuzion.jpg" alt="Night Time Thoughts - PHELTO X IFÈ THE KEED thumbnail" class="img-responsive" style="object-fit: cover">
-    </a>
-</div>
-            </div>
-            
-            <div class="col-md-4 col-sm-6 col-xs-6">
-                <div class="avlanche-thumbnail">
-    <a href="/musique/fuzion-phelto-ife.html">
-        <h5 title="FUZION S1/EP1">FUZION S1/EP1</h5>
-        <img src="/assets/musique/FUZION-EP1-S1.png" alt="FUZION S1/EP1 thumbnail" class="img-responsive" style="object-fit: cover">
-    </a>
-</div>
-            </div>
-            
-            <div class="col-md-4 col-sm-6 col-xs-6">
-                <div class="avlanche-thumbnail">
-    <a href="/musique/session-live-s1-ep2.html">
-        <h5 title="Session Live S1/EP2 - IFÈ THE KEED">Session Live S1/EP2 - IFÈ THE KEED</h5>
-        <img src="/assets/musique/ife-the-keed.png" alt="Session Live S1/EP2 - IFÈ THE KEED thumbnail" class="img-responsive" style="object-fit: cover">
-    </a>
-</div>
-            </div>
-            
-            <div class="col-md-4 col-sm-6 col-xs-6">
-                <div class="avlanche-thumbnail">
-    <a href="/musique/session-live-s1-ep1.html">
-        <h5 title="Session Live S1/EP1 - PHELTO">Session Live S1/EP1 - PHELTO</h5>
-        <img src="/assets/musique/PHELTO-MIX-5_Moment_Moment.jpg" alt="Session Live S1/EP1 - PHELTO thumbnail" class="img-responsive" style="object-fit: cover">
-    </a>
-</div>
-            </div>
-            
         </div>
     </div>
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <h2><a href="/photography">Photographie</a></h2>
+            <div class="col-sm-6">
+                <h2>Session Live S1/EP3 - DK DIZZY</h2>
+                <h5 title="2019-05-19 12:00:00 +0200">19 May 2019</h5>
             </div>
         </div>
 
-        <div class="row">
-            
-            
-            <div class="col-md-4 col-sm-6 col-xs-6">
-                <div class="avlanche-thumbnail">
-    <a href="/photography/hugo-descarrega-x-shino.html">
-        <h5 title="Hugo Descarrega X Shino">Hugo Descarrega X Shino</h5>
-        <img src="https://res.cloudinary.com/avlanche-fr/image/upload/ar_16:9,c_crop/HugoDescarregaXShino/cover.jpg" alt="Hugo Descarrega X Shino thumbnail" class="img-responsive" style="object-fit: cover">
-    </a>
-</div>
-            </div>
-            
-            <div class="col-md-4 col-sm-6 col-xs-6">
-                <div class="avlanche-thumbnail">
-    <a href="/photography/avlanche-release-party.html">
-        <h5 title="Avlanche Release Party">Avlanche Release Party</h5>
-        <img src="https://res.cloudinary.com/avlanche-fr/image/upload/ar_16:9,c_crop/Avlanche%20Release%20party/cover.jpg" alt="Avlanche Release Party thumbnail" class="img-responsive" style="object-fit: cover">
-    </a>
-</div>
-            </div>
-            
-        </div>
+        <p class="description">
+            Voici le troisième épisode de notre série "Session Live" avec DK DIZZY. Cette série vise à faire découvrir de nouveaux artistes dans des univers musicaux variés.
+        </p>
+        <hr>
+        <p>
+            Avec             DK DIZZY
+
+
+{:.table}
+| Réalisé par | @nataass_ |
+| Directeur de la photographie | Chris WEATHLEY |
+| Assistante réalisateur         | Emma LEROUX |
+| Cadreur                        | Lucas DOUAY |
+| Ingénieurs du son              | Théo LARROQUE |
+|                                 |Matteo D'AMICO |
+| Mixage son                     | Antoine RICOUX |
+| Régie                           | Dorian DACUNHA |
+|                                 |Thibault GUEVILLE |
+| Maquillage                     | Ameline BLADT |
+|	                            | Juliette DANIEL |
+| Etalonnage                     | Ulysse GAILLOT |
+| Montage                        |Justine DÉCHAMPS |
+| Edition                         | Louis SOUVESTRE |
+| Renfort plateau                 | Béatrice PARISOT |  
+| Photographe plateau             | Alexis MAUPIN |
+| Chargé de communication         | Alexis MAUPIN | 
+
+Une production      AVLANCHE 
+
+        </p>
     </div>
-
 </section>
-
     </main><footer id="footer" class="avlanche-footer">
     <div class="container">
         <div class="row">
@@ -263,5 +216,44 @@
     })();
 </script>
 <script src="/assets/js/analytics.js"></script>
+<script>
+    var tag = document.createElement('script');
+    tag.src = "//www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    var player;
+    var videoId = "Bb_sqO5P5VA"
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+            videoId: videoId,
+            events: {
+                onStateChange: onPlayerStateChange
+            }
+        })
+    }
+
+    function onPlayerStateChange(event) {
+        var eventName;
+        switch(event.data) {
+            case YT.PlayerState.PLAYING:
+                eventName = 'Video Playing';
+                break;
+            case YT.PlayerState.PAUSED:
+                eventName = 'Video Paused';
+                break;
+            case YT.PlayerState.ENDED:
+                eventName = 'Video Ended';
+                break;
+        }
+
+        if(eventName) {
+            mixpanel.track(eventName, {
+                videoId: videoId
+            });
+        }
+    }
+</script>
+
 </body>
 </html>
