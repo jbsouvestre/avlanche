@@ -34,5 +34,5 @@ Une production      AVLANCHE
 
 Suivez DK Dizzy:  
 
-* [SoundCloud](https://soundcloud.com/dkdizzy?fbclid=IwAR2d7yZW7deb90zO3bILurAAPx2EYro_yUSU1ovmDGs45V6-cZdm9Dx9oNI)
+* [SoundCloud](https://soundcloud.com/dkdizzy)
 * [Facebook](https://www.facebook.com/DKDizzyOfficial/)
