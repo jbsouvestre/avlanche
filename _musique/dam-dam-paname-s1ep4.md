@@ -37,4 +37,4 @@ Suivez DamDam partout:
 * [Youtube](https://www.youtube.com/channel/UC3OA2o1OI5sSdrYWR2siMxA)
 * [Instagram ](https://www.instagram.com/damdampaname_music/)
 * [Facebook](https://www.facebook.com/DamDampaname/)
-* [SmartUrl] (http://smarturl.it/metropolitain)
+
