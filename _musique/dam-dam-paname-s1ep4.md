@@ -15,7 +15,9 @@ Avec             DamDam Paname
 | Cadreur                        | Lucas DOUAY |
 | Ingénieurs du son              | Théo LARROQUE |
 |                                 |Matteo D'AMICO |
-| Mixage son                     | Antoine RICOUX |
+| Mixage son                     | Octave GUICHARD |
+|                                  | Thibault HASS |
+|                                  | Antoine RICOUX |
 | Régie                           | Dorian DACUNHA |
 |                                 |Thibault GUEVILLE |
 | Maquillage                     | Ameline BLADT |
