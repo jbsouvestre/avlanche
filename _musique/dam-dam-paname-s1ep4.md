@@ -14,7 +14,7 @@ Avec             DamDam Paname
 | Assistante réalisateur         | Emma LEROUX |
 | Cadreur                        | Lucas DOUAY |
 | Ingénieurs du son              | Octave GUICHARD |
-|                                 | Tibaut HASS |
+|                                 | Tibaut HAAS |
 | Mixage son                     | Octave GUICHARD |                                                 
 | Régie                           | Dorian DACUNHA |
 |                                 |Thibault GUEVILLE |
