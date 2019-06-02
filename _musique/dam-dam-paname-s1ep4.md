@@ -13,11 +13,9 @@ Avec             DamDam Paname
 | Directeur de la photographie | Chris WEATHLEY |
 | Assistante réalisateur         | Emma LEROUX |
 | Cadreur                        | Lucas DOUAY |
-| Ingénieurs du son              | Théo LARROQUE |
-|                                 |Matteo D'AMICO |
-| Mixage son                     | Octave GUICHARD |
-|                                  | Thibault HASS |
-|                                  | Antoine RICOUX |
+| Ingénieurs du son              | Octave GUICHARD |
+|                                 | Tibaut HASS |
+| Mixage son                     | Octave GUICHARD |                                                 
 | Régie                           | Dorian DACUNHA |
 |                                 |Thibault GUEVILLE |
 | Maquillage                     | Ameline BLADT |
