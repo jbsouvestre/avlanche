@@ -2,7 +2,7 @@
 title: Session Live S1/EP4 - DAM DAM PANAME
 youtube_id: apMn9yQoswE
 description: Voici le quatrième épisode de notre série "Session Live" avec DamDam Paname. Cette série vise à faire découvrir de nouveaux artistes dans des univers musicaux variés. 
-image: https://res.cloudinary.com/avlanche-fr/image/upload/v1559476942/Miniatures-sessions-live/dam_dam_paname_miniature.png
+image: https://res.cloudinary.com/avlanche-fr/image/upload/ar_16:9,c_crop/v1559476942/Miniatures-sessions-live/dam_dam_paname_miniature.png
 date: 2019-06-02 14:00
 ---
 Avec             DamDam Paname
